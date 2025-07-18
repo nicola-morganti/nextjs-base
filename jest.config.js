@@ -1,10 +1,11 @@
 /** @type {import('jest').Config} */
-module.exports = {
+const config = {
   preset: "ts-jest",
   testEnvironment: "jest-environment-jsdom",
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   moduleNameMapper: {
-    "\\.(css|less|sass|scss)$": "identity-obj-proxy",
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy",
   },
-  testPathIgnorePatterns: ["/node_modules/", "/.next/"],
 };
+
+export default config;
