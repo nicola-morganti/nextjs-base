@@ -22,8 +22,8 @@ Modern fullstack starter template with Next.js 14 (App Router), Prisma ORM, stac
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/next-prisma-auth-starter.git
-cd next-prisma-auth-starter
+git clone https://github.com/nicola-morganti/nextjs-base.git
+cd nextjs-base
 ```
 
 2. Install dependencies
